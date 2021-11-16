@@ -1,37 +1,36 @@
-*{
-    text-align: center;
+* {
+  text-align: center;
 }
 
 #rock {
-    font-size: 64px;
-    background-color: transparent;
-    border: none;
+  font-size: 64px;
+  background-color: transparent;
+  border: none;
 }
 
 #scissors {
-    font-size: 64px;
-    background-color: transparent;
-    border: none;
-    
+  font-size: 64px;
+  background-color: transparent;
+  border: none;
 }
 
 #paper {
-    font-size: 64px;
-    background-color: transparent;
-    border: none;
+  font-size: 64px;
+  background-color: transparent;
+  border: none;
 }
 
 #rock:hover {
-    font-size: 72px;
-    transition: .5s;
+  font-size: 72px;
+  transition: 0.5s;
 }
 
 #paper:hover {
-    font-size: 68px;
-    transition: .5s;
+  font-size: 68px;
+  transition: 0.5s;
 }
 
 #scissors:hover {
-    font-size: 68px;
-    transition: .5s;
+  font-size: 68px;
+  transition: 0.5s;
 }
