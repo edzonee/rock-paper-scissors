@@ -41,20 +41,12 @@ btnRock.addEventListener("click", function () {
   }
   if (playerScore === 3) {
     alert("you win!");
-    playerScore = 0;
-    compScore = 0;
-    compScoreText.innerText = 0;
-    playerScoreText.innerText = 0;
-    compChoseThis.innerText = "";
+    resetGame()
   }
 
   if (compScore === 3) {
     alert("you lose");
-    playerScore = 0;
-    compScore = 0;
-    compScoreText.innerText = 0;
-    playerScoreText.innerText = 0;
-    compChoseThis.innerText = "";
+    resetGame()
   }
 });
 
@@ -75,20 +67,12 @@ btnScissors.addEventListener("click", function () {
   }
   if (playerScore === 3) {
     alert("you win!");
-    playerScore = 0;
-    compScore = 0;
-    compScoreText.innerText = 0;
-    playerScoreText.innerText = 0;
-    compChoseThis.innerText = "";
+    resetGame()
   }
 
   if (compScore === 3) {
     alert("you lose");
-    playerScore = 0;
-    compScore = 0;
-    compScoreText.innerText = 0;
-    playerScoreText.innerText = 0;
-    compChoseThis.innerText = "";
+    resetGame()
   }
 });
 
@@ -110,19 +94,19 @@ btnPaper.addEventListener("click", function () {
 
   if (playerScore === 3) {
     alert("you win!");
-    playerScore = 0;
-    compScore = 0;
-    compScoreText.innerText = 0;
-    playerScoreText.innerText = 0;
-    compChoseThis.innerText = "";
+    resetGame()
   }
 
   if (compScore === 3) {
     alert("you lose");
-    playerScore = 0;
-    compScore = 0;
-    compScoreText.innerText = 0;
-    playerScoreText.innerText = 0;
-    compChoseThis.innerText = "";
+    resetGame()
   }
 });
+
+function resetGame() {
+  playerScore = 0;
+  compScore = 0;
+  compScoreText.innerText = 0;
+  playerScoreText.innerText = 0;
+  compChoseThis.innerText = "";
+}
